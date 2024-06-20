@@ -6,7 +6,9 @@ body {
     letter-spacing: 0.5px;
     font-size: 1.2em;
 }
-
+.overflow-hidden{
+    overflow: hidden;
+}
 #search-container {
     position: absolute;
     top: 50%;
@@ -47,6 +49,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 75px;
     text-align: center;
     border-top: 1px solid black;
     padding: 10px;
@@ -67,4 +70,12 @@ footer {
     position: absolute;
     top: 1%;
     right: 1%;
+}
+
+#tree {
+    position: absolute;
+    bottom:75px;
+    right: 30px;
+    z-index: 10;
+    height: 100px;
 }
