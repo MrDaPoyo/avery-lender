@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffff9f;
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
 }
 
 #search-container {
@@ -14,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 25%;
+    width: 50%;
     padding:0; 
     margin:0;
 }
@@ -46,6 +48,18 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #ffffd6;
+    border-top: 1px solid black;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#about-link {
+    position: absolute;
+    top: 1%;
+    right: 1%;
 }
