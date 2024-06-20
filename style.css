@@ -58,6 +58,11 @@ footer {
     gap: 10px;
     justify-content: space-evenly;
 }
+.footer-item {
+    font-size: 1em; 
+    padding:0;
+    margin:0;
+    text-align:center;}
 #about-link {
     position: absolute;
     top: 1%;
