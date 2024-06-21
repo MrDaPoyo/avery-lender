@@ -74,8 +74,21 @@ footer {
 
 #tree {
     position: absolute;
-    bottom:75px;
-    right: 30px;
+    bottom: 75px;
+    right: -50px;
+    z-index: 10;
+    height: 500px;
+}
+#powertools {
+    position: absolute;
+    bottom: 75px;
+    left: 50px;
     z-index: 10;
     height: 100px;
+    transform: scaleX(-1);
+}
+
+#current-link {
+    color: black;
+    text-decoration: underline;
 }
