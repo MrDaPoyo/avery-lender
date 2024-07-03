@@ -13,6 +13,38 @@
 <html>
   <body>
     <a href="lend" id="about-link">About :3</a>
+    <div class="navbar-container">
+      <h1>Lender</h1>
+        <form>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for items to lend"
+          />
+          <button type="submit" id="search-submit">Search</button>
+        </form>
+      <img src="static/images/dithered-powertools.png" width="100px" style="padding:0; margin:0; transform: translateX(-20px);">
+    </div>
+    <div class="container">
+      <h2>Lend an object!</h2>
+      <div class="lend-container">
+        <div class="left">
+          <h2>About you</h2>
+          <form>
+            <label for="item-name">Name:</label>
+            <input type="text" id="item-name" name="item-name" required /><br>
+            <label for="item-desc">Surname:</label>
+            <input type="text" id="item-name" name="item-name" required /><br>
+            
+            <button type="submit" id="lend-submit">Lend</button>
+          </form>
+        </div>
+        <div class="right">
+
+        </div>
+      </div>
+    </div>
+    
     <footer>
       <a href="borrow.html" class="footer-item">Borrow</a>
       <a href="index.html" class="footer-item">Home</a>

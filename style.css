@@ -60,6 +60,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  background-color: #ffdb8f;
   justify-content: space-evenly;
 }
 .footer-item {
@@ -93,4 +94,61 @@ footer {
 #current-link {
   color: black;
   text-decoration: underline;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  background-color: #ffdb8f;
+  border-bottom: black 1px solid;
+}
+
+.navbar-container > * {
+  margin: 0 5px;
+  padding: 0;
+}
+.navbar-container > h1 {
+  margin: 2px 5px -10px 5px;
+  padding:0;
+}
+.container {
+  padding-left: 10%;
+  height: 60vh;
+}
+  
+.lend-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: black 1px solid;
+}
+.lend-container > .right {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lend-container > .left {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
