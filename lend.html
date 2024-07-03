@@ -26,24 +26,36 @@
       <img src="static/images/dithered-powertools.png" width="100px" style="padding:0; margin:0; transform: translateX(-20px);">
     </div>
     <div class="container">
-      <h2>Lend an object!</h2>
-      <div class="lend-container">
-        <div class="left">
-          <h2>About you</h2>
-          <form>
-            <label for="item-name">Name:</label>
-            <input type="text" id="item-name" name="item-name" required /><br>
-            <label for="item-desc">Surname:</label>
-            <input type="text" id="item-name" name="item-name" required /><br>
+          <h2>Lend an object!</h2>
+          <form class="lend-container">
+            <div class="left">
+              <h2>About you</h2>
+              <div class="form">
+                <div>
+                <label for="item">Name:</label><br>
+                <input type="text" class="item" name="name" required /><br>
+                <label for="item">Surname:</label><br>
+                <input type="text" class="item" name="surname" required /><br>
+                <button type="submit" id="search-submit w-75">Lend</button>
+              </div>
+            </div>
             
-            <button type="submit" id="lend-submit">Lend</button>
+            </div>
+            <div class="left">
+              <h2>About the item</h2>
+              <div class="form">
+                <div>
+                <label for="item">Item:</label><br>
+                <input type="text" class="item" name="item" required /><br>
+                <label for="item">Description:</label><br>
+                <input type="text" class="item" name="description" required /><br>
+                <label for="item">Image:</label><br>
+                <input type="file" class="item" name="image" required /><br>
+                <button type="submit" id="search-submit w-75">Lend</button>
+              </div>
+              </div>
           </form>
         </div>
-        <div class="right">
-
-        </div>
-      </div>
-    </div>
     
     <footer>
       <a href="borrow.html" class="footer-item">Borrow</a>

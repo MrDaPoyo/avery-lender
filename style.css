@@ -121,34 +121,39 @@ footer {
   
 .lend-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   flex-direction: row;
-  width: 80vw;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  width: 75vw;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: black 1px solid;
 }
-.lend-container > .right {
+.lend-container > .right, .left {
   border: 1px solid black;
   width: 50%;
   height: 100%;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  flex-basis: 49%;
 }
-.lend-container > .left {
+
+
+form > .item {
+  width: 100%;
   border: 1px solid black;
-  width: 50%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Alkalami", serif;
+  transform: translateX(1vw);
+}
+.right {
+  border-right: none;
+  border-left: none;
 }
